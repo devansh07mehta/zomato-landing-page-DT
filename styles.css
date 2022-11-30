@@ -385,10 +385,178 @@
     transform:rotate(270deg);
 }
 
+.section__get__the_app{
+    margin-top: 2.7%;
+    background-color: rgb(255, 251, 247);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 6rem;
+}
 
+.container__get__the_app{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-left: 6%;
+}
 
+.container__get__the_app .img__app{
+    width: 30%;
+    padding-top: 8%;
+}
 
+.container__get__the_app .img__app img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
+.text__get__the_app h1{
+    font-size: 2.6rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+.text__get__the_app p{
+    padding: 2% 11% 3% 0%;
+    font-weight: 300;
+    line-height: 2.2rem;
+    color: rgb(54, 54, 54);
+}
+
+.input__container .radio__button{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 12px;
+}
+
+.input__container .radio__button .button input{
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    border: 1px solid rgb(156, 156, 156);
+    /* transition: 0.2s all linear; */
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+    accent-color: rgb(239, 79, 95);
+}
+
+.input__container .radio__button .button label{
+    font-weight: 300;
+}
+
+.input__container .radio__button .button input:hover:checked{
+    appearance: none;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background-clip: content-box;
+    padding: 3.85%;
+    background-color: rgb(239, 79, 95);
+    border: 1px solid rgb(239, 79, 95);
+}
+
+.input__container .radio__button .button input:hover:not(:checked){
+    appearance: none;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    /* background-clip: content-box;
+    padding: 3px;
+    background-color: rgb(239, 79, 95); */
+    border: 1px solid rgb(239, 79, 95);
+}
+
+.input__container .radio__button .button input:focus{
+    appearance: auto;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    accent-color:rgb(239, 79, 95);
+    border: 1px solid rgb(239, 79, 95);
+}
+
+.input__share_the_app{
+    display: flex;
+    gap: 1.5%;
+    margin-bottom: 25px;
+}
+
+.input__share_the_app .input_text{
+    width: 55%;
+}
+
+.input__share_the_app .input_text input{
+    width: 100%;
+    padding: 10px 0px 8px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 18px;
+    outline: none;
+}
+
+.input__share_the_app .input_text input::placeholder{
+    color: rgb(161, 159, 159);
+    font-weight: 300;
+    /* padding-left: 3px; */
+}
+
+.input__share_the_app .button{
+    width: 28%;
+}
+
+.input__share_the_app .button button{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none;
+    background: rgb(239, 79, 95);
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.input__share_the_app .button button:hover{
+    cursor: pointer;
+    background-color: rgb(229, 48, 64);
+}
+
+.download__the_app .text p{
+    color: rgb(156, 156, 156);
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding-bottom: 13px;
+}
+
+.download__the_app .img__download__the_app{
+    display: flex;
+    gap: 4%;
+}
+
+.download__the_app .img__download__the_app .play_store{
+    width: 25%;
+}
+
+.download__the_app .img__download__the_app .play_store img{
+    width: 100%;
+}
+
+.download__the_app .img__download__the_app .app__store{
+    width: 25%;
+}
+
+.download__the_app .img__download__the_app .app__store img{
+    width: 100%;
+}
 @media only screen and (max-width:500px){
     .navbar__menu_container .user__icon{
         display: flex;
