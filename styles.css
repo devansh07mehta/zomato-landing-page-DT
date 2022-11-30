@@ -392,7 +392,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 6rem;
+    padding: 3rem 6rem 4.3rem;
 }
 
 .container__get__the_app{
@@ -556,6 +556,52 @@
 
 .download__the_app .img__download__the_app .app__store img{
     width: 100%;
+}
+
+.container__explore{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 4% 13.9%;
+}
+
+.container__explore .explore__options{
+    padding-bottom: 15px;
+}
+
+.container__explore .explore__options h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+}
+
+.popular__options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popular__options .options{
+    border: 1px solid rgb(232, 232, 232);
+    padding: 18px;
+    padding-left: 25px;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+}
+
+.popular__options .options h3{
+    font-weight: 300;
+}
+
+.options .right__caret_down i{
+    color: black;
+    transform: rotate(0deg);
+    font-size: 13px;
+    position: absolute;
+    right: 2.5%;
 }
 @media only screen and (max-width:500px){
     .navbar__menu_container .user__icon{
