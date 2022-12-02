@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
     padding: 47px 45px;
     margin-bottom: 30px;
 }
@@ -131,10 +130,12 @@
     width: 65%;
 }
 
-.container__we_offer{
+.section__we_offer{
     margin: 3rem auto;
-    padding: 0% 1.6%;
-    padding-top: 0.7rem;
+}
+
+.container__we_offer{
+    padding: 1% 1.6%;
     width: 100%;
     display: flex;
     gap: 1.2rem;
@@ -147,7 +148,7 @@
     border: 1px solid rgba(220, 220, 220, 0.742);
     border-radius: 10px;
     width: 24%;
-    height: 240px;
+    height: 100%;
     transition: all 0.4s ease;
 }
 
@@ -242,6 +243,10 @@
     background-size: cover;
     background-position: center;
     position: relative;   
+}
+
+.collections__card_container .card:hover{
+    cursor: pointer;
 }
 
 .card1{
