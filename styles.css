@@ -210,7 +210,7 @@
 }
 
 .sub__heading_container span:nth-child(2){
-    color: rgb(255, 0, 110);
+    color: rgb(255, 126, 139);
     background-color: transparent;
     cursor: pointer;
     font-size: 1rem;
@@ -229,7 +229,7 @@
 
 .right__caret_down i{
     color: #ff7e8b;
-    transform:rotate(270deg);
+    /* transform:rotate(270deg); */
 }
 
 .collections__card_container{
@@ -791,6 +791,24 @@
     .we__offer_content p{
         font-size: 0.8rem;
     }
+    .container__collection .sub__heading_container{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .sub__heading_container span:nth-child(1){
+        width: 65%;
+    }
+    .sub__heading_container .collections_mumbai p{
+        font-size: 0.95rem;
+        width: 55%;
+    }
+    .sub__heading_container span .right__caret_down{
+        padding-left: 0px;
+        width: 25%;
+    }
+    /* .sub__heading_container span .right__caret_down i{
+        transform: rotate(270deg);
+    } */
 }
 
 @media only screen and (max-width:835px){
@@ -799,6 +817,9 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+    }
+    .sub__heading_container .collections_mumbai p{
+        font-size: 0.9rem;
     }
 }
 
@@ -829,6 +850,10 @@
     .hero__section_container .hero__section_title{
         font-size: 1.8rem;
     }
+    .sub__heading_container span:nth-child(1){
+        width: 55%;
+    }
+
 }
 
 @media only screen and (max-width:670px){
@@ -931,6 +956,15 @@
       }
 }
 
+@media only screen and (max-width:511px){
+    .sub__heading_container .collections_mumbai p, .sub__heading_container .collections_mumbai span{
+        display: none;
+    }
+    .sub__heading_container{
+        display: inline-block;
+    }
+}
+
 @media only screen and (max-width:480px){
 
     .navbar{
@@ -984,6 +1018,33 @@
     }
     .we__offer_content p{
         font-size: 0.85rem;
+    }
+    .card .content .right__caret_down{
+        padding-left: 18%;
+    }
+}
+
+@media only screen and (max-width:324px){
+    .collections__card_container .card{
+        width: 240px;
+        height: 300px;
+    }
+    .card .content h4{
+        font-size: 1rem;
+        left: 6%;
+    }
+    .card .content span{
+        left: 6%;
+        font-size: 0.8rem;
+    }
+    .card .content .right__caret_down{
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .card .content .right__caret_down{
+        display: none;
     }
 }
 
