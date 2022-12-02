@@ -564,7 +564,7 @@
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
-    padding: 4% 13.9%;
+    padding: 4% 13.9% 3.25%;
 }
 
 .container__explore .explore__options{
@@ -603,6 +603,152 @@
     position: absolute;
     right: 2.5%;
 }
+
+.container__footer{
+    background: rgb(248, 248, 248);
+    padding: 3.25% 14% 2.25%;
+}
+
+.container__footer .logo__section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.4%;
+}
+
+.logo__section .logo__zomato{
+    width: 12.4%;
+}
+
+.logo__section .logo__zomato img{
+    width: 100%;
+}
+
+.logo__section .logo__button{
+    display: flex;
+    gap: 1rem;
+}
+
+.logo__section .logo__button{
+    width: 23%;
+}
+
+.logo__section .logo__button .button{
+    width: 100%;
+}
+
+.logo__section .logo__button .button__india{
+    width: 90%;
+}
+
+.logo__section .logo__button .button button{
+    padding: 5px 0px;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.logo__section .logo__button .button button i{
+    font-size: 10px;
+}
+
+.navigation__container{
+    display: grid;
+    grid-template-columns: 20% 20% 25% 18% 20%;
+    margin-bottom: 4.8%;
+}
+
+.navigation__container .footer__container .header__container h5{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding-bottom: 5px;
+}
+
+.navigation__container .footer__container .link__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link__container .footer__link{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.social__links_container{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.social__links_container button{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background-color: black;
+}
+
+.social__links_container button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.social__links_container button a i{
+    padding-top: 1px;
+    color: white;
+    font-size: 11px;
+}
+
+.social__links_container button .linked-in i{
+    padding-top: 1px;
+    font-size: 12px;
+}
+
+.social__links_container button .instagram i{
+    /* padding-top: 1px; */
+    font-size: 13px;
+}
+
+.social__links_container button .twitter i{
+    padding-top: 2px;
+    padding-left: 1px;
+}
+
+.social__links_container button .youtube i{
+    padding-top: 2px;
+}
+
+.images__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container__footer .disclamer__container{
+    padding-top:20px;
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.container__footer .disclamer__container p{
+    color: rgb(79, 79, 79);
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
 @media only screen and (max-width:500px){
     .navbar__menu_container .user__icon{
         display: flex;
