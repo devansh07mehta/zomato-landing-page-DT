@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .hero__section{
@@ -15,6 +14,7 @@
     background-position-y: 47.175%;
     color: white;
     transform: scale(1.1);
+    overflow-y: hidden;
 }
 
 .navbar{
