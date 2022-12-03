@@ -770,13 +770,72 @@
     .navbar__menu_container{
         padding-right: 8%;
     }
+    .sub__heading_container span:nth-child(1){
+        width: 65%;
+    }
     .sub__heading_container .collections_mumbai p{
         font-size: 0.95rem;
-        width: 70%;
+        width: 65%;
     }
     .sub__heading_container span .right__caret_down{
         padding-left: 0px;
         width: 20%;
+    }
+    .container__places .place .center .drop_down{
+        left: 72%;
+    }
+    .container__get__the_app .img__app{
+        width: 40%;
+    }
+    .logo__section .logo__zomato {
+        width: 135px;
+    }
+    .logo__section .logo__button {
+        width: 255px;
+    }
+    .logo__section .logo__button .button button{
+        position: relative;
+        padding: 5px 10px;
+        justify-content: left;
+    }
+    .logo__section .logo__button .button button i{
+        position: absolute;
+        right: 7%;
+    }
+    .logo__section .logo__button .button__india {
+        width: 179px;
+    }
+    .logo__section .logo__button .button__globe {
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width:1170px){
+    .navigation__container{
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+@media only screen and (max-width:1132px){
+    .collections__card_container .card{
+        /* width: 233px;
+        height: 309px; */
+        width: 350px;
+        height: 350px;
+    }
+    .card .content .right__caret_down{
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width:1005px){
+    .navigation__container{
+        grid-template-columns: auto auto auto auto;
+        grid-row-gap: 20px;
+    }
+    .navigation__container .footer_5{
+        width: 100%;
+        /* grid-template-columns: 1fr; */
     }
 }
 
@@ -824,7 +883,19 @@
         height: 325px;
     }
     .card .content .right__caret_down{
-        padding-left: 0px;
+        padding-left: 50px;
+    }
+    .container__places .place .center .drop_down{
+        left: 78%;
+    }
+    .container__get__the_app .img__app{
+        width: 45%;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 30%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 30%;
     }
 }
 
@@ -834,7 +905,10 @@
         height: 300px;
     }
     .card .content .right__caret_down{
-        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .container__places .place .center .drop_down{
+        left: 83%;
     }
 }
 
@@ -848,11 +922,23 @@
     .sub__heading_container .collections_mumbai p{
         font-size: 0.9rem;
     }
+    .container__get__the_app .img__app{
+        width: 50%;
+    }
+    .input__share_the_app .button{
+        width: 35%;
+    }
 }
 
 @media only screen and (max-width:820px){
     .hero__section_input_container{
         width: 80%;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 35%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 35%;
     }
 }
 
@@ -880,7 +966,38 @@
     .sub__heading_container span:nth-child(1){
         width: 55%;
     }
-
+    .container__get__the_app .img__app {
+        width: 55%;
+    }
+    .text__get__the_app h1 {
+        font-size: 2.3rem;
+        font-weight: 400;
+        letter-spacing: 0.05rem;
+    }
+    .input__share_the_app .button {
+        width: 40%;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 36%;
+    }
+    .navigation__container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .logo__section .logo__button {
+        gap: 8px;
+    }
+    .logo__section .logo__button {
+        width: 242px;
+    }
+    .logo__section .logo__button .button__india {
+        width: 100px;
+    }
+    .logo__section .logo__button .button__globe {
+        width: 120px;
+    }
+    .container__footer{
+        padding: 5% 12% 3%;
+    }
 }
 
 @media only screen and (max-width:720px){
@@ -889,7 +1006,24 @@
         height: 350px;
     }
     .card .content .right__caret_down{
-        padding-right: 70px;
+        padding-right: 100px;
+    }
+    .container__places .place .center .drop_down{
+        left: 90%;
+    }
+    .container__places .place3 .right__caret_down{
+        right: 6%;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 41%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 41%;
+    }
+}
+@media only screen and (max-width:672px){
+    .container__location .container__places{
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -941,6 +1075,51 @@
     }
     .we__offer_content p{
         font-size: 0.98rem;
+    }
+    .logo__section .logo__zomato {
+        width: 120px;
+    }
+    .logo__section .logo__button {
+        width: 227px;
+    }
+    .logo__section .logo__button .button button{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:653px){
+    .text__get__the_app p{
+        font-size: 15px;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 46%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .section__get__the_app{
+        padding: 3rem 0 4.3rem;
+    }
+    .container__get__the_app .img__app {
+        width: 75%;
+    }
+    .logo__section .logo__zomato {
+        width: 110px;
+    }
+    .logo__section .logo__button {
+        width: 210px;
+    }
+    .logo__section .logo__button .button button{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:624px){
+    .navigation__container{
+        grid-template-columns: auto auto;
     }
 }
 
@@ -1000,6 +1179,18 @@
     .sub__heading_container{
         display: inline-block;
     }
+    .popular__options .options h3{
+        font-size: 1.1rem;
+    }
+    .container__footer{
+        padding: 7% 10% 3%;
+    }
+}
+
+@media only screen and (max-width:496px){
+    .container__explore .explore__options h1{
+        font-size: 1.7rem;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -1015,11 +1206,67 @@
     .hero__section_logo{
         width: 170px;
     }
+    .container__footer{
+        padding: 8% 9% 3%;
+    }
+}
+
+@media only screen and (max-width:468px){
+    .container__explore .explore__options h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width:445px){
+    .card .content .right__caret_down{
+        padding-left: 65px;
+    }
+    .container__get__the_app .img__app {
+        width: 85%;
+    }
+    .text__get__the_app h1{
+        font-size: 2.1rem;
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 49%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 49%;
+    }
+    .container__explore .explore__options h1{
+        font-size: 1.5rem;
+    }
+    .popular__options .options h3 {
+        font-size: 1rem;
+    }
+    .container__footer{
+        padding: 8% 9% 3%;
+    }
+    .navigation__container{
+        grid-template-columns: auto auto;
+        margin: auto;
+        /* justify-content: space-evenly; */
+        margin-bottom: 5%;
+    }
 }
 
 @media only screen and (max-width:430px){
     .card .content .right__caret_down{
-        padding-left: 18%;
+        display: none;
+    }
+    .container__location .header__container h1{
+        font-size: 30px;
+    }
+    .container__location .container__places{
+        grid-template-columns: auto;
+    }
+    .container__footer .logo__section{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo__section .logo__zomato {
+        width: 200px;
     }
 }
 
@@ -1056,6 +1303,25 @@
     }
 }
 
+@media only screen and (max-width:385px){
+    .card .content .right__caret_down{
+        display: none;
+    }
+    .collections__card_container .card{
+        width: 340px;
+        height: 300px;
+    }
+    .input__share_the_app .input_text input{
+        font-size: 17px;
+    }
+    .input__share_the_app .button{
+        overflow-y: hidden;
+    }
+    .input__share_the_app .button button{
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width:359px){
     .hero__section_container .hero__section_title{
         font-size: 1.495rem;
@@ -1071,14 +1337,23 @@
     }
 }
 
-@media only screen and (max-width:385px){
-    .card .content .right__caret_down{
-        display: none;
+@media only screen and (max-width:336px){
+    .container__location .header__container h1{
+        font-size: 25px;
     }
-    .collections__card_container .card{
-        width: 340px;
-        height: 300px;
+    .container__places .place h3{
+        font-size: 17px;
     }
+    .container__places .place p{
+        font-size: 15px;
+    }
+    .container__get__the_app .img__app {
+        width: 95%;
+    }
+    .text__get__the_app h1 {
+        font-size: 1.9rem;
+    }
+    
 }
 
 @media only screen and (max-width:324px){
@@ -1097,11 +1372,48 @@
     .card .content .right__caret_down{
         padding-left: 20%;
     }
+    .container__footer .logo__section{
+        margin-bottom: 20px;
+    }
+    .navigation__container{
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+    }
 }
 
-@media only screen and (max-width:300px){
-    .card .content .right__caret_down{
-        display: none;
+@media only screen and (max-width:306px){
+    .text__get__the_app h1 {
+        font-size: 1.8rem;
+        /* text-align: center; */
+    }
+    .download__the_app .img__download__the_app .play_store {
+        width: 50%;
+    }
+    .download__the_app .img__download__the_app .app__store {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:291px){
+    .text__get__the_app h1 {
+        font-size: 1.7rem;
+        /* text-align: center; */
+    }
+}
+
+@media only screen and (max-width:280px){
+    .container__location .header__container h1{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:276px){
+    .container__get__the_app .img__app {
+        width: 100%;
+    }
+    .text__get__the_app h1 {
+        margin: auto;
+        font-size: 1.6rem;
     }
 }
 
@@ -1111,6 +1423,36 @@
     }
     .sub__heading_container span:nth-child(1){
         font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:256px){
+    .logo__section .logo__zomato {
+        width: 100%;
+    }
+    .logo__section .logo__button {
+        width: 100%;
+    }
+    .logo__section .logo__button .button button i{
+        display: none;
+    }
+    .logo__section .logo__button .button button img{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:247px){
+    .container__location .header__container h1{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:225px){
+    .container__location .header__container h1{
+        text-align: center;
+    }
+    .logo__section .logo__button .button button img{
+        width: 60%;
     }
 }
 
