@@ -8,7 +8,7 @@
 
 .hero__section{
     background-image: url(./images/heroSectionBackground.png);
-    min-height: 56vh;
+    max-height: 56vh;
     background-size: cover;
     background-position-x:center;
     background-position-y: 47.175%;
@@ -140,7 +140,7 @@
 }
 
 .container__we_offer{
-    padding: 1% 1.6%;
+    padding: 1.5% 1.6%;
     width: 100%;
     display: flex;
     gap: 1.2rem;
@@ -702,6 +702,7 @@
 }
 
 .social__links_container button{
+    border: none;
     border-radius: 50%;
     width: 22px;
     height: 22px;
@@ -808,6 +809,12 @@
     .logo__section .logo__button .button__globe {
         width: 190px;
     }
+    .hero__section{
+        min-height: 60vh;
+    }
+    .section__we_offer{
+        margin: 2rem auto;
+    }
 }
 
 @media only screen and (max-width:1170px){
@@ -896,6 +903,9 @@
     }
     .download__the_app .img__download__the_app .app__store {
         width: 30%;
+    }
+    .hero__section{
+        min-height: 58vh;
     }
 }
 
@@ -1085,6 +1095,9 @@
     .logo__section .logo__button .button button{
         font-size: 15px;
     }
+    .hero__section{
+        min-height: 55.5vh;
+    }
 }
 
 @media only screen and (max-width:653px){
@@ -1209,6 +1222,9 @@
     .container__footer{
         padding: 8% 9% 3%;
     }
+    .hero__section{
+        max-height: 55vh;
+    }
 }
 
 @media only screen and (max-width:468px){
@@ -1267,6 +1283,9 @@
     }
     .logo__section .logo__zomato {
         width: 200px;
+    }
+    .container__footer .logo__section {
+        margin-bottom: 20px;
     }
 }
 
@@ -1378,6 +1397,15 @@
     .navigation__container{
         grid-template-columns: auto;
         justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width:314px){
+    .hero__section{
+        min-height: 60vh;
+    }
+    .section__we_offer {
+        margin: 1.75rem auto;
     }
 }
 
