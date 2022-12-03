@@ -1473,6 +1473,12 @@
     }
 }
 
+@media only screen and (max-width:240px){
+    .hero__section{
+        min-height: 68vh;
+    }
+}
+
 @media only screen and (max-width:247px){
     .container__location .header__container h1{
         font-size: 20px;
@@ -1522,4 +1528,10 @@
         top: 25%;
         right: -25%;
       }
+}
+
+@media only screen and (max-width:173px){
+    .hero__section{
+        min-height: 72vh;
+    }
 }
