@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .hero__section{
@@ -1426,6 +1427,9 @@
     .text__get__the_app h1 {
         font-size: 1.7rem;
         /* text-align: center; */
+    }
+    .container__we_offer{
+        padding: 2% 1.6%;
     }
 }
 
