@@ -8,7 +8,7 @@
 
 .hero__section{
     background-image: url(./images/heroSectionBackground.png);
-    max-height: 56vh;
+    min-height: 55vh;
     background-size: cover;
     background-position-x:center;
     background-position-y: 47.175%;
